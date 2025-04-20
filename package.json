@@ -14,10 +14,3 @@
     "lucide-react": "^0.260.0"
   }
 }
-# Replace package.json with the fixed version (as above)
-# Then run:
-rm -f package-lock.json
-npm install
-git add .
-git commit -m "fix: downgrade react to 18.2.0 for Next.js compatibility"
-git push origin main
